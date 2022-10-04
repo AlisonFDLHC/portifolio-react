@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portifolio-react/static/css/main.c037fbf9.css",
+    "main.js": "/portifolio-react/static/js/main.6b9ffb71.js",
+    "static/media/lls.png": "/portifolio-react/static/media/lls.9c55b35db8d4c26f89a4.png",
+    "static/media/controlergb.gif": "/portifolio-react/static/media/controlergb.07e41f74ec7ea8070b28.gif",
+    "static/media/fondolhaca.png": "/portifolio-react/static/media/fondolhaca.622c6ef72f160860034b.png",
+    "static/media/gulison.png": "/portifolio-react/static/media/gulison.883da28dd0678109e72e.png",
+    "static/media/pingadara.png": "/portifolio-react/static/media/pingadara.c2bc8f876256c2ad3657.png",
+    "static/media/slider.gif": "/portifolio-react/static/media/slider.11aa0ce58cb38cdedfc8.gif",
+    "static/media/mainbg.jpg": "/portifolio-react/static/media/mainbg.11899938d3a777f64563.jpg",
+    "static/media/cronometro.gif": "/portifolio-react/static/media/cronometro.75d1b37a7507a8cd9485.gif",
+    "static/media/contador.gif": "/portifolio-react/static/media/contador.1871fcbb7a4af78761c6.gif",
+    "static/media/seletor.gif": "/portifolio-react/static/media/seletor.7a7f698a29904de1b939.gif",
+    "static/media/react.svg": "/portifolio-react/static/media/react.3c078e4a2c7e3323d0db8d8f48a0011c.svg",
+    "static/media/logo.svg": "/portifolio-react/static/media/logo.582853645e59e1f72944c97cafaf9bf5.svg",
+    "static/media/eye.svg": "/portifolio-react/static/media/eye.58e2e925cf4f544de80bdacf3d42996c.svg",
+    "static/media/javascript.svg": "/portifolio-react/static/media/javascript.df9ed532c10bb9bc4316f69303fc3741.svg",
+    "static/media/bootstrap.svg": "/portifolio-react/static/media/bootstrap.6952566a3fa2d7e2df6cadec5d239fb4.svg",
+    "index.html": "/portifolio-react/index.html",
+    "static/media/mysql.svg": "/portifolio-react/static/media/mysql.049926a2063e7f8983b031c63771658b.svg",
+    "static/media/html.svg": "/portifolio-react/static/media/html.7e7a287b396bfa1b515c2e8835b58252.svg",
+    "static/media/css.svg": "/portifolio-react/static/media/css.7ec8a0e420ccd601b001d22cd3c17f23.svg",
+    "main.c037fbf9.css.map": "/portifolio-react/static/css/main.c037fbf9.css.map",
+    "main.6b9ffb71.js.map": "/portifolio-react/static/js/main.6b9ffb71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c037fbf9.css",
+    "static/js/main.6b9ffb71.js"
+  ]
+}
