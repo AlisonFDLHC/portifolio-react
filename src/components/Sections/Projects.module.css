@@ -1,0 +1,60 @@
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 10rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 2rem;
+}
+
+.buttonsContainer button {
+    flex-grow: 1;
+}
+
+.active {
+    box-shadow: 0 0 2rem black;
+    animation-name: activeButton;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes activeButton {
+    0% {
+        box-shadow: inset 0 0 1rem #1c1c1c00;
+    }
+    100% {
+        box-shadow: inset 0 0 2rem #1c1c1c;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .buttonsContainer {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 0!important;
+    }
+    .buttonsContainer button {
+        width: auto;
+        margin: 0;
+        font-size: 2vw;
+    }
+}

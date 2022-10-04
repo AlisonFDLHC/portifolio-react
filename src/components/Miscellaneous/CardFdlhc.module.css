@@ -1,0 +1,95 @@
+.cardImg {
+    width: 100%;
+    aspect-ratio: 2;
+}
+
+.cardFdlhc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 30rem!important;
+    box-shadow: 0 0.2rem 0.5rem #eb1f8550, 0.2rem 0 0.5rem #16acd150;
+}
+
+.cardFdlhcHeader {
+    width: 100%;
+}
+
+.cardFdlhcBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.techLogoContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.techLogo {
+    width: 2rem;
+}
+
+.techLogo:nth-child(1) svg {
+    fill: #eb1f85;
+}
+.techLogo:nth-child(2) {
+    fill: #16acd1;
+}
+.techLogo:nth-child(3) {
+    fill: #922dc5;
+}
+.techLogo:nth-child(4) {
+    fill: #eb1f85;
+}
+.techLogo:nth-child(5) {
+    fill: #16acd1;
+}
+
+
+.cardFdlhcTitle {
+    text-align: center;
+    font-size: 1.5rem!important;
+    margin: 0.5rem 0!important;
+}
+
+.cardFdlhcText {
+    margin: 1rem;
+}
+
+.cardFdlhcFooter {
+    display: flex;
+    border: none;
+    width: 100%;
+    padding: 0!important;
+}
+
+.cardFdlhcFooter a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.cardFooterButton {
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+.cardFdlhcFooter a:nth-child(1) button {
+    background-color: #eb1f85;
+}
+
+.cardFdlhcFooter a:nth-child(2) button {
+    background-color: #16acd1;
+}

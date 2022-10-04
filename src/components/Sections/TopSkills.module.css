@@ -1,0 +1,254 @@
+.topSkillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    background-color: #1c1c1c;
+    background-image: url(../../imgs/mainbg.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    color: white;
+    border-top: 0.2rem solid #16acd1;
+    border-bottom: 0.2rem solid #eb1f85;
+    margin-bottom: 10rem;
+}
+
+.topSkillsText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.topSkills {
+    width: 100%;
+    display: flex;
+}
+
+.topSkills div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topSkills div img {
+    width: 3rem;
+}
+
+.bar {
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0.2rem 0.2rem 0.5rem #1c1c1c;
+    border-radius: 10px 10px 0 0;
+    width: 3rem!important;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.barReactFill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #16acd1;
+    box-shadow: 0 0 2rem #16acd190;
+}
+
+.barReactFillAnimation {
+    animation-name: reactBar;
+    animation-duration: var(--animationDuration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes reactBar {
+    0% {
+        transform: translatey(-0rem);
+        height: 0rem;
+    }
+
+    100% {
+        transform: translatey(-8rem);
+        height: 8rem;
+    }
+}
+
+.barBootstrapFill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #eb1f85;
+    box-shadow: 0 0 2rem #eb1f8590;
+}
+
+.barBootstrapFillAnimation {
+    animation-name: bootstrapBar;
+    animation-duration: var(--animationDuration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bootstrapBar {
+    0% {
+        transform: translatey(-0rem);
+        height: 0rem;
+    }
+
+    100% {
+        transform: translatey(-9rem);
+        height: 9rem;
+    }
+}
+
+.barHtmlFill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #922dc5;
+    box-shadow: 0 0 2rem #922dc590;
+}
+
+.barHtmlFillAnimation {
+    animation-name: htmlBar;
+    animation-duration: var(--animationDuration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes htmlBar {
+    0% {
+        transform: translatey(-0rem);
+        height: 0rem;
+    }
+
+    100% {
+        transform: translatey(-10rem);
+        height: 10rem;
+    }
+}
+
+.barCssFill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #16acd1;
+    box-shadow: 0 0 2rem #16acd190;
+}
+
+.barCssFillAnimation {
+    animation-name: cssBar;
+    animation-duration: var(--animationDuration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssBar {
+    0% {
+        transform: translatey(-0rem);
+        height: 0rem;
+    }
+
+    100% {
+        transform: translatey(-9.5rem);
+        height: 9.5rem;
+    }
+}
+
+.barJavascriptFill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #eb1f85;
+    box-shadow: 0 0 2rem #eb1f8590;
+}
+
+.barJavascriptFillAnimation {
+    animation-name: javascriptBar;
+    animation-duration: var(--animationDuration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes javascriptBar {
+    0% {
+        transform: translatey(-0rem);
+        height: 0rem;
+    }
+
+    100% {
+        transform: translatey(-9rem);
+        height: 9rem;
+    }
+}
+
+.barMysqlFill {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #16acd1;
+    box-shadow: 0 0 2rem #16acd190;
+}
+
+.barMysqlFillAnimation {
+    animation-name: mysqlBar;
+    animation-duration: var(--animationDuration);
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mysqlBar {
+    0% {
+        transform: translatey(-0rem);
+        height: 0rem;
+    }
+
+    100% {
+        transform: translatey(-7rem);
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .topSkills {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .topSkills > div {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        gap: 2rem;
+    }
+
+    .topSkills > div > div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topSkills > div > div > h4 {
+        text-align: center;
+        width: 10rem;
+    }
+
+}
